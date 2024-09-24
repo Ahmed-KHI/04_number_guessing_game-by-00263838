@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Title: Number Guessing Game
 
-## Getting Started
+Day 4: Number Guessing Game
 
-First, run the development server:
+Description: The Number Guessing Game is an interactive web application that challenges players to guess a randomly generated number between 1 and 10. Designed to be engaging and user-friendly, the app allows users to start the game, pause it, and track their attempts, providing a fun way to test their guessing skills.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Functionalities:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start Game: Users can initiate the game to begin guessing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pause and Resume: Players have the option to pause the game and resume it later, allowing for a flexible gaming experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+User Input: The application accepts numerical input for guesses, ensuring an intuitive user interface.
 
-## Learn More
+Guessing Mechanism: Players submit their guesses, with the app tracking the number of attempts.
 
-To learn more about Next.js, take a look at the following resources:
+Game Over Feedback: Upon a correct guess, players receive feedback on their performance, including the number of attempts taken to guess correctly.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Try Again Option: After the game concludes, users can easily restart the game with a single click.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project marks my fourth completion in the 30 Days of 30 Projects challenge, an initiative from the Governor IT Program aimed at enhancing practical coding skills. Through this project, I honed my skills in React, state management, and user interaction design, creating an enjoyable and educational experience for users.
